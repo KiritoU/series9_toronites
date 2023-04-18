@@ -377,11 +377,11 @@ class Helper:
                 # _thumbnail_id
                 (post_id, "tr_post_type", "2"),
                 (post_id, "field_title", post_data["title"]),
-                (
-                    post_id,
-                    "field_trailer",
-                    CONFIG.YOUTUBE_IFRAME.format(post_data["youtube_id"]),
-                ),
+                # (
+                #     post_id,
+                #     "field_trailer",
+                #     CONFIG.YOUTUBE_IFRAME.format(post_data["youtube_id"]),
+                # ),
                 (
                     post_id,
                     "poster_hotlink",
